@@ -1,0 +1,24 @@
+{
+  "name": "emoji-logs",
+  "version": "1.0.0",
+  "description": "This is npm package add emoji prefixes to your specified console logs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agil-Dev/emoji-logs.git"
+  },
+  "keywords": [
+    "logs",
+    "console",
+    "emoji"
+  ],
+  "author": "Kamil Pawlaczyk <prgmr.kamil.pawlaczyk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Agil-Dev/emoji-logs/issues"
+  },
+  "homepage": "https://github.com/Agil-Dev/emoji-logs#readme"
+}
