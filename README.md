@@ -19,6 +19,7 @@ require('emoji-logs').config()
 
 ## Config
 
+### Change emoji
 
 ```js
 require('emoji-logs').config({
