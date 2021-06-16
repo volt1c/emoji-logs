@@ -14,7 +14,7 @@ yarn add emoji-logs
 As early as possible in your application, require and configure emoji-logs.
 
 ```js
-require('emoji-logs').config()
+require('emoji-logs').config({})
 ```
 
 ## Config
