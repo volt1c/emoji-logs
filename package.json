@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agil-Dev/emoji-logs.git"
+    "url": "git+https://github.com/volt1c/emoji-logs.git"
   },
   "keywords": [
     "logs",
@@ -18,7 +18,7 @@
   "author": "Kamil Pawlaczyk <prgmr.kamil.pawlaczyk@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Agil-Dev/emoji-logs/issues"
+    "url": "https://github.com/volt1c/emoji-logs/issues"
   },
-  "homepage": "https://github.com/Agil-Dev/emoji-logs#readme"
+  "homepage": "https://github.com/volt1c/emoji-logs#readme"
 }
