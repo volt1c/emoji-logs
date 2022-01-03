@@ -14,7 +14,13 @@ yarn add emoji-logs
 As early as possible in your application, require and configure emoji-logs.
 
 ```js
+// CommonJS
 require('emoji-logs').config({})
+
+// JavaScript modules
+import emojiLogs from 'emoji-logs'
+
+emojiLogs.configure({})
 ```
 
 ## Config
@@ -30,6 +36,18 @@ require('emoji-logs').config({
 })
 ```
 
+### Change Formatter
+```js
+const moment = require('moment')
+
+require('emoji-logs').config({
+  formatter: (v) => {
+    const time = moment(new Date()).format('HH:MM:SS')
+    return `[${time}] ${v}>`
+  }
+})
+```
+
 ## Example
 
 ### Default configuration
@@ -39,3 +57,7 @@ require('emoji-logs').config({
 ### Changed emojis
 
 ![example](./assets/configured.gif)
+
+### Changed formatter
+
+![example](./assets/formatter.gif)
