@@ -1,9 +1,9 @@
 export type ConfigOptions = {
-  info: string
-  error: string
-  warn: string
-  debug: string
-  formatter: (v: string) => string
+  info?: string
+  error?: string
+  warn?: string
+  debug?: string
+  formatter?: (v: string) => string
 }
 
 /**
