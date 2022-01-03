@@ -1,7 +1,13 @@
-const config = ({ info = '✅', error = '⛔️', warn = '⚡', debug = '🔍' }) => {
+const config = ({ 
+  info = '✅', 
+  error = '⛔️', 
+  warn = '⚡', 
+  debug = '🔍', 
+  formatter = v => `[${v}]> ` 
+}) => {
   const addPrefix = (consoleLog, emoji) => {
     const log = consoleLog
-    return (msg) => log(`[${emoji}]> ${msg}`)
+    return (msg) => log(`${formatter(emoji)}${msg}`)
   }
   console.info = addPrefix(console.info, info)
   console.error = addPrefix(console.error, error)
